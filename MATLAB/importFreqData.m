@@ -1,4 +1,4 @@
-path = 'C:\Users\alexxx\Desktop\Work\ELN1_Project2020\FilesForStudents\data\ConductiveProbe\';
+path = 'C:\Users\jeann\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\data\ConductiveProbe\';
 freq = [];
 V1=[];
 V2=[];
@@ -12,3 +12,7 @@ Amp2(:,k+1) = 10.^(data(:,3)/20);
 Phase2(:,k+1) = data(:,4)*pi/180;
 
 end
+
+semilogx(freq, 20*log10(Amp2), '-x');
+xlabel('Frequency [Hz]');
+ylabel('Gain [dB]');

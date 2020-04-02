@@ -12,7 +12,36 @@ Amp2(:,k+1) = 10.^(data(:,3)/20);
 Phase2(:,k+1) = data(:,4)*pi/180;
 
 end
+%PLOT Cpr et Rpr en fonction de la fréquence et de R1
+R1=10000;
+%On estime que le gain Amp1 est égal à 1
+G = Amp2;
 
-semilogx(freq, 20*log10(Amp2), '-x');
-xlabel('Frequency [Hz]');
-ylabel('Gain [dB]');
+Rpr = (G.*R1)./(abs(cos(Phase2))-G);
+Cpr = (tan(Phase2).*(R1+Rpr))./(2.*pi.*freq.*Rpr.*R1);
+
+figure();
+plot(freq, Rpr, '-');
+legend('Rpr0', 'Rpr1', 'Rpr2', 'Rpr3', 'Rpr4');
+grid
+figure();
+plot(freq, Cpr, '-');
+legend('Cpr0', 'Cpr1', 'Cpr2', 'Cpr3', 'Cpr4');
+grid
+
+
+%freqM = 11070;
+
+%phiVert = -9.23;
+%gVertDb = -26.54;
+%gVert = 10^(gVertDb/20)
+%RprVert = (gVert*R1)/(abs(cosd(phiVert))-gVert)
+%CprVert = (tand(phiVert)*(R1+RprVert))/(2*pi*freqM*RprVert*R1)
+
+
+%semilogx(freq, 20*log10(Amp2), '-x');
+%xlabel('Frequency [Hz]');
+%ylabel('Gain [dB]');
+%semilogx(freq, (Phase2*360/(2*pi)), '-x');
+%xlabel('Frequency [Hz]');
+%ylabel('Gain [dB]');

@@ -18,7 +18,7 @@ R1=10000;
 G = Amp2;
 
 Rpr = (G.*R1)./(abs(cos(Phase2))-G);
-Cpr = (tan(Phase2).*(R1+Rpr))./(2.*pi.*freq.*Rpr.*R1);
+Cpr = -(tan(Phase2).*(R1+Rpr))./(2.*pi.*freq.*Rpr.*R1);
 
 figure();
 plot(freq, Rpr, '-');

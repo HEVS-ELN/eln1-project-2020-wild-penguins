@@ -1,6 +1,6 @@
 
 % Load the data
-data = load('C:\Users\jeann\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\Simu_probe.txt');
+data = load('C:\Users\jeann\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\Simul\Simu_probe.txt');
 % separate the data columns, just to make the code clear
 V0 = data(:,2); % Column 1 is Latitude
 V1 = data(:,3); % Column 2 is Longitude

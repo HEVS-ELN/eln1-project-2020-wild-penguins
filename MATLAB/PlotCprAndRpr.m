@@ -29,19 +29,13 @@ plot(freq, Cpr, '-');
 legend('Cpr0', 'Cpr1', 'Cpr2', 'Cpr3', 'Cpr4');
 grid
 
-
-%freqM = 11070;
-
-%phiVert = -9.23;
-%gVertDb = -26.54;
-%gVert = 10^(gVertDb/20)
-%RprVert = (gVert*R1)/(abs(cosd(phiVert))-gVert)
-%CprVert = (tand(phiVert)*(R1+RprVert))/(2*pi*freqM*RprVert*R1)
-
-
-%semilogx(freq, 20*log10(Amp2), '-x');
-%xlabel('Frequency [Hz]');
-%ylabel('Gain [dB]');
-%semilogx(freq, (Phase2*360/(2*pi)), '-x');
-%xlabel('Frequency [Hz]');
-%ylabel('Gain [dB]');
+figure();
+semilogx(freq, 20*log10(Amp2), '-x');
+xlabel('Frequency [Hz]');
+ylabel('Gain [dB]');
+grid
+figure();
+semilogx(freq, (Phase2*360/(2*pi)), '-x');
+xlabel('Frequency [Hz]');
+ylabel('Gain [dB]');
+grid

@@ -1,0 +1,26 @@
+* C:\Users\jeann\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\Simu_probe.asc
+R1 VIN V0 10k
+Rpr V0 0 459k
+Cpr V0 0 72.59pF
+R2 VIN V1 10k
+Rpr1 V1 0 15930
+Cpr1 V1 0 1.223nF
+R3 VIN V2 10k
+Rpr2 V2 0 7066
+Cpr2 V2 0 1.714nF
+R4 VIN V3 10k
+Rpr3 V3 0 4239
+Cpr3 V3 0 3.991nF
+V5 VIN 0 PULSE(-0.5 0.5 0 0.1u 0.1u 100u 200u)
+R5 VIN V4 10k
+Rpr4 V4 0 565
+Cpr4 V4 0 17.5nF
+.tran 1ms
+* .step param R list .516k .11.8k .6.35k .3.25k .500
+* .step param C list .65.7pF .545pF .591pF .1.66nF .4.9nF
+* 4
+* 3
+* 2
+* 1
+.backanno
+.end

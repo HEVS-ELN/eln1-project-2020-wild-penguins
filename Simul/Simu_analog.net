@@ -1,0 +1,26 @@
+* C:\Users\73JN\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\Simul\Simu_analog.asc
+XU1 N007 N001 Vdd Vee N001 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+XU2 N006 N009 Vdd Vee N008 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+V1 0 Vee 1.5
+V2 Vdd 0 {Vbatt-1.5}
+R1 N007 0 16K
+R2 N005 N007 100k
+C1 N004 N005 22n
+V3 N004 Vee PULSE({Vbatt} 0 0 0.1u 0.1u {1/(2*freq)} {1/freq})
+R3 N006 N001 10k
+R4 0 N006 {R}
+C2 N006 0 {C}
+R5 0 N009 10k
+R6 N008 N009 22k
+XU3 N001 N003 Vdd Vee N002 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
+R7 0 N003 10k
+R8 N002 N003 22k
+.tran 20m
+.param freq=5k
+.param Vbatt = 2.8
+.param R table(index,1,516k,2,11.8k,3,6.35k,4,3.25k,5,500)
+.param C table(index,1,65.7pF,2,545pF,3,591pF,4,1.66nF,5,4.9nF)
+.step param index list 1 2 3 4 5
+.lib UniversalOpamps2.sub
+.backanno
+.end

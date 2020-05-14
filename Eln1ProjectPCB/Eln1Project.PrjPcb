@@ -701,28 +701,28 @@ GenerateClassCluster=0
 DocumentUniqueId=
 
 [Parameter1]
-Name=PcbDate
-Value=dd.mm.yyyy
-
-[Parameter2]
-Name=PcbDesigner
-Value=name
-
-[Parameter3]
-Name=PcbRevision
+Name=SchematicRevision
 Value=1.0
 
-[Parameter4]
-Name=SchematicDate
-Value=dd.mm.yyyy
-
-[Parameter5]
+[Parameter2]
 Name=SchematicDesigner
 Value=name
 
-[Parameter6]
-Name=SchematicRevision
+[Parameter3]
+Name=SchematicDate
+Value=dd.mm.yyyy
+
+[Parameter4]
+Name=PcbRevision
 Value=1.0
+
+[Parameter5]
+Name=PcbDesigner
+Value=T. Jozipovic & J. Nanchen
+
+[Parameter6]
+Name=PcbDate
+Value=dd.mm.yyyy
 
 [Configuration1]
 Name=Default Configuration

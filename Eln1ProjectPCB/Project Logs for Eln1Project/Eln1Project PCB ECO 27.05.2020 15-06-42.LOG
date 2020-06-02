@@ -1,0 +1,5 @@
+Added Pin To Net: NetName=GND Pin=L3-2
+Change Net Name : Old Net Name=GND New Net Name=ANT
+Added Member To Class: ClassName=ELN1project Member=Component C2 0.8pF
+Added Member To Class: ClassName=ELN1project Member=Component L3 3.9nH
+Added Room: Name=ELN1project

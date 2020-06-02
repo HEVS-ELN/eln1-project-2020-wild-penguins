@@ -1,0 +1,41 @@
+Added Component: Designator=IC1(QFN50P500X500X80-33N)
+Add component. Clean all parameters for all variants
+Add component (AddParameter): Name = "Datasheet Link"; Value = "https://componentsearchengine.com/Datasheets/1/nRF52810-QCAA-T.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height"; Value = "0.8mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Name"; Value = "Nordic Semiconductor"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer_Part_Number"; Value = "NRF52810-QCAA-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Part Number"; Value = "949-NRF52810-QCAA-T"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mouser Price/Stock"; Value = "https://www.mouser.co.uk/ProductDetail/Nordic-Semiconductor/nRF52810-QCAA-T?qs=5aG0NVq1C4ykfpvypn%2FnAA%3D%3D"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Part Number"; Value = "1697120P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "RS Price/Stock"; Value = "http://uk.rs-online.com/web/p/products/1697120P"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=NetC4_2 Pin=IC1-1
+Added Pin To Net: NetName=MES_N Pin=IC1-4
+Added Pin To Net: NetName=MES_N Pin=IC1-4
+Added Pin To Net: NetName=MES_P Pin=IC1-5
+Added Pin To Net: NetName=MES_P Pin=IC1-5
+Added Pin To Net: NetName=SW Pin=IC1-6
+Added Pin To Net: NetName=SW Pin=IC1-6
+Added Pin To Net: NetName=SIGPROBE Pin=IC1-7
+Added Pin To Net: NetName=SIGPROBE Pin=IC1-7
+Added Pin To Net: NetName=SHDWN Pin=IC1-8
+Added Pin To Net: NetName=SHDWN Pin=IC1-8
+Added Pin To Net: NetName=+3V Pin=IC1-9
+Added Pin To Net: NetName=+3V Pin=IC1-9
+Added Pin To Net: NetName=NetIC1_16 Pin=IC1-16
+Added Pin To Net: NetName=NetIC1_17 Pin=IC1-17
+Added Pin To Net: NetName=NetIC1_18 Pin=IC1-18
+Added Pin To Net: NetName=NetC2_2 Pin=IC1-19
+Added Pin To Net: NetName=GND Pin=IC1-20
+Added Pin To Net: NetName=NetC8_1 Pin=IC1-22
+Added Pin To Net: NetName=NetC7_1 Pin=IC1-23
+Added Pin To Net: NetName=NetC6_1 Pin=IC1-24
+Added Pin To Net: NetName=+3V Pin=IC1-25
+Added Pin To Net: NetName=+3V Pin=IC1-27
+Added Pin To Net: NetName=+1.5V Pin=IC1-28
+Added Pin To Net: NetName=GND Pin=IC1-29
+Added Pin To Net: NetName=NetC1_2 Pin=IC1-30
+Added Pin To Net: NetName=NetIC1_31 Pin=IC1-31
+Added Pin To Net: NetName=+3V Pin=IC1-32
+Added Pin To Net: NetName=GND Pin=IC1-33
+Added Member To Class: ClassName=ELN1project Member=Component IC1 NRF52810-QCAA-T
+Added Room: Name=ELN1project

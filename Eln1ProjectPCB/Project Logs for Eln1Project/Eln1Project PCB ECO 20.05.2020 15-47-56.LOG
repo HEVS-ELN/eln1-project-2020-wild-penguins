@@ -1,0 +1,10 @@
+Added Component: Designator=J?(TAG CONNECT TC2030-MCP-NL)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetIC1_18 Pin=J?-1
+Added Pin To Net: NetName=+3V Pin=J?-2
+Added Pin To Net: NetName=NetIC1_17 Pin=J?-3
+Added Pin To Net: NetName=NetIC1_18 Pin=J?-4
+Added Pin To Net: NetName=NetIC1_16 Pin=J?-5
+Added Pin To Net: NetName=GND Pin=J?-6
+Added Member To Class: ClassName=ELN1project Member=Component J? TAG CONNECT TC2030-MCP-NL
+Added Room: Name=ELN1project

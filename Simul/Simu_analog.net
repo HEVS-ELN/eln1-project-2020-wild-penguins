@@ -1,4 +1,4 @@
-* C:\Users\73JN\OneDrive\Documents\ELN\Wild Penguins\eln1-project-2020-wild-penguins\Simul\Simu_analog.asc
+* C:\Users\73JN\Documents\GitHub\eln1-project-2020-wild-penguins\Simul\Simu_analog.asc
 XU1 N007 N001 Vdd Vee N001 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
 XU2 N006 N009 Vdd Vee N008 level.2 Avol=1Meg GBW=10Meg Slew=10Meg ilimit=25m rail=0 Vos=0 phimargin=45 en=0 enk=0 in=0 ink=0 Rin=500Meg
 V1 0 Vee 1.5
